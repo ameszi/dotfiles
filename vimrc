@@ -35,5 +35,10 @@ set magic              " Set magic on, for regular expressions.
 set ignorecase         " Searches are Non Case-sensitive.
 set smartcase          " Overrides ignorecase, if search contains uppercase character.
 
+let mapleader="\<Space>"
+nnoremap <leader>l :source ~/.vimrc<cr>
+
+nnoremap ; :
+
 nnoremap <leader>w :w<cr>
 nnoremap <leader>q :q<cr>
