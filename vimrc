@@ -34,3 +34,6 @@ set incsearch          " Incremental search.
 set magic              " Set magic on, for regular expressions.
 set ignorecase         " Searches are Non Case-sensitive.
 set smartcase          " Overrides ignorecase, if search contains uppercase character.
+
+nnoremap <leader>w :w<cr>
+nnoremap <leader>q :q<cr>
